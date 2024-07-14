@@ -1,8 +1,8 @@
-# apollo
+# pontus
 
-Modern and minimalistic blog theme powered by [Zola](https://getzola.org). See a live preview [here](https://not-matthias.github.io/apollo).
+Minimalistic blog theme powered by [Zola](https://getzola.org).
 
-<sub><sup>Named after the greek god of knowledge, wisdom and intellect</sup></sub>
+<sub><sup>Named after the greek god of the sea</sup></sub>
 
 <details open>
   <summary>Dark theme</summary>
@@ -35,13 +35,13 @@ Modern and minimalistic blog theme powered by [Zola](https://getzola.org). See a
 
 1. Download the theme
 ```
-git submodule add https://github.com/not-matthias/apollo themes/apollo
+git submodule add https://github.com/niklas-timpe/pontus themes/pontus
 ```
 
 2. Add the following to the top of your `config.toml`
 
 ```toml
-theme = "apollo"
+theme = "pontus"
 taxonomies = [{ name = "tags" }]
 
 [extra]
@@ -53,13 +53,12 @@ menu = [
   # Configure menu bar here
 ]
 
-# See this for more options: https://github.com/not-matthias/apollo/blob/main/config.toml#L14
 ```
 
 3. Copy the example content
 
 ```
-cp -r themes/apollo/content/* content/
+cp -r themes/pontus/content/* content/
 ```
 
 ## Configuration
@@ -68,4 +67,4 @@ You can find all the configuration options [here](./content/posts/configuration.
 
 ## References
 
-This theme is based on [archie-zola](https://github.com/XXXMrG/archie-zola/).
+This theme is a fork of [apollo](https://github.com/not-matthias/apollo).
