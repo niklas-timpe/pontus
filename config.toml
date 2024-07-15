@@ -1,5 +1,5 @@
-base_url = "https://not-matthias.github.io/apollo/"
-title = "not-matthias"
+base_url = "https://pontus.example/"
+title = "pontus-example"
 description = "This is an example description"
 build_search_index = false
 generate_feeds = true
@@ -21,7 +21,6 @@ fancy_code = true
 dynamic_note = true           # a note that can be toggled
 mathjax = true
 mathjax_dollar_inline_enable = true
-repo_url = "https://github.com/not-matthias/apollo/tree/main/content"
 
 menu = [
     { name = "/posts", url = "/posts", weight = 1 },
@@ -31,8 +30,7 @@ menu = [
 ]
 
 socials = [
-    { name = "twitter", url = "https://twitter.com/not_matthias", icon = "twitter" },
-    { name = "github", url = "https://github.com/not-matthias/", icon = "github" },
+    { name = "github", url = "https://github.com/niklas-timpe/", icon = "github" },
 ]
 
 custom_css = []

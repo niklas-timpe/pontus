@@ -1,5 +1,5 @@
 +++
-title = "Configuring Apollo"
+title = "Configuring Pontus"
 date = "2024-07-09"
 
 [taxonomies]
@@ -45,8 +45,7 @@ Defines the social media links.
 - Usage:
   ```toml
   socials = [
-    { name = "twitter", url = "https://twitter.com/not_matthias", icon = "twitter" },
-    { name = "github", url = "https://github.com/not-matthias/", icon = "github" },
+    { name = "github", url = "https://github.com/niklas-timpe/", icon = "github" },
   ]
   ```
 
@@ -117,7 +116,7 @@ Do you want to link to the source code of your blog post? You can turn on the `r
 ```toml
 [extra]
 repo_view = true
-repo_url = "https://github.com/not-matthias/apollo/tree/main/content"   # Alternatively add the repo here
+repo_url = "https://github.com/niklas-timpe/pontus/tree/main/content"   # Alternatively add the repo here
 ```
 
 The `repo_url` can be set in the `[extra]` section or in your `config.toml`.
